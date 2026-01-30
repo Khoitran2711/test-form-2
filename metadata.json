@@ -1,0 +1,7 @@
+{
+  "name": "Ninh Thuan Hospital Feedback System",
+  "description": "A professional medical feedback management system for Ninh Thuan General Hospital, featuring a public submission portal and an admin response dashboard with AI-powered reply suggestions.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
