@@ -121,7 +121,7 @@ const App: React.FC = () => {
           className="w-full h-full object-cover"
           onError={(e) => {
             const target = e.target as HTMLImageElement;
-            target.src = 'https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&q=80&w=2000';
+            target.src = 'https://scontent.fsgn24-1.fna.fbcdn.net/v/t39.30808-6/514066302_707621135218583_2409261783078819376_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=109&ccb=1-7&_nc_sid=cc71e4&_nc_eui2=AeG3wrHM-NvDEzdxSv2-1CcxZVjlYbQGcqJlWOVhtAZyoqAPil_3pB_6aEJjql3cpudB8gBBAH5IpM6tDAhL2G3e&_nc_ohc=dwYqMWzXf5IQ7kNvwGRe6-U&_nc_oc=AdlbHqWyfWScz7myHj6HBlY5OvCJDK7W65UXE5vkpm0KUPu4KlVXl2HzXbETKhByhDI&_nc_zt=23&_nc_ht=scontent.fsgn24-1.fna&_nc_gid=rkgytHS4I8XvlViauxXzHg&oh=00_AfpUbJgc7iEoPZU36A24Aggn1dpsf6dfVGo9smWFETUWqQ&oe=69823B52';
           }}
         />
         <div className="absolute inset-0 bg-white/30 backdrop-blur-[1px]"></div>
