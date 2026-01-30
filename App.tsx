@@ -121,7 +121,7 @@ const App: React.FC = () => {
           className="w-full h-full object-cover"
           onError={(e) => {
             const target = e.target as HTMLImageElement;
-            target.src = "images/bg.png";
+            target.src = 'https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&q=80&w=2000';
           }}
         />
         <div className="absolute inset-0 bg-white/30 backdrop-blur-[1px]"></div>
