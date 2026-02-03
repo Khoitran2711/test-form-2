@@ -43,7 +43,7 @@ export const PublicFeedback: React.FC<PublicFeedbackProps> = ({ onSubmit }) => {
         <div className="w-16 h-16 md:w-24 md:h-24 bg-emerald-100 text-emerald-600 rounded-full flex items-center justify-center mx-auto mb-6 shadow-inner">
           <Icons.CheckCircle />
         </div>
-        <h2 className="text-xl md:text-3xl font-black text-slate-900 mb-2">Gửi phản ánh thành công!</h2>
+        <h2 className="text-xl md:text-3xl font-black text-slate-900 mb-2">Gửi góp ý thành công!</h2>
         <p className="text-slate-600 mb-8 text-sm md:text-base font-medium">Chúng tôi đã tiếp nhận ý kiến của quý khách và sẽ sớm phản hồi.</p>
         <button 
           onClick={() => setSubmitted(false)}
@@ -61,7 +61,7 @@ export const PublicFeedback: React.FC<PublicFeedbackProps> = ({ onSubmit }) => {
       <form onSubmit={handleSubmit} className="md:w-[70%] p-6 md:p-14 space-y-6 md:space-y-10">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
           <div className="space-y-2">
-            <label className="text-[10px] font-black text-slate-500 uppercase tracking-widest px-1">Họ tên người phản ánh</label>
+            <label className="text-[10px] font-black text-slate-500 uppercase tracking-widest px-1">Họ và tên </label>
             <input 
               required 
               className="w-full px-5 md:px-6 py-4 md:py-5 bg-white/50 border border-slate-200 rounded-2xl focus:ring-4 focus:ring-blue-600/10 focus:border-blue-600 outline-none transition-all font-bold placeholder:text-slate-300 text-sm md:text-base" 
@@ -102,7 +102,7 @@ export const PublicFeedback: React.FC<PublicFeedbackProps> = ({ onSubmit }) => {
         </div>
 
         <div className="space-y-2">
-          <label className="text-[10px] font-black text-slate-500 uppercase tracking-widest px-1">Nội dung phản ánh chi tiết</label>
+          <label className="text-[10px] font-black text-slate-500 uppercase tracking-widest px-1">Nội dung góp ý chi tiết</label>
           <textarea 
             required 
             className="w-full px-5 md:px-6 py-5 md:py-6 bg-white/50 border border-slate-200 rounded-3xl focus:ring-4 focus:ring-blue-600/10 focus:border-blue-600 outline-none transition-all font-bold min-h-[140px] md:min-h-[180px] resize-none leading-relaxed placeholder:text-slate-300 text-sm md:text-base" 
