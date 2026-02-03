@@ -79,7 +79,7 @@ const App: React.FC = () => {
             </h1>
             <div className="h-1 w-24 md:h-1.5 md:w-32 bg-blue-600 my-2 md:my-3 rounded-full mx-auto md:mx-0 shadow-sm"></div>
             <p className="text-blue-700 font-extrabold uppercase tracking-[0.2em] text-[8px] md:text-xs">
-              Hệ thống tiếp nhận phản ánh trực tuyến
+              Hệ thống tiếp mọi góp ý trực tuyến
             </p>
           </div>
         </div>
@@ -95,7 +95,7 @@ const App: React.FC = () => {
             }`}
           >
             <div className="flex items-center gap-2">
-              <Icons.ClipboardList /> Gửi phản ánh
+              <Icons.ClipboardList /> Gửi góp ý của bạn
             </div>
           </button>
           <button 
@@ -173,7 +173,7 @@ const App: React.FC = () => {
               </div>
               <div>
                 <h3 className="font-black text-lg md:text-xl text-white tracking-tight">{HOSPITAL_NAME}</h3>
-                <p className="text-[10px] md:text-sm opacity-70">Số 01 Nguyễn Văn Cừ, Tp. Phan Rang - Tháp Chàm</p>
+                <p className="text-[10px] md:text-sm opacity-70">Số 01 Nguyễn Văn Cừ, Phường Phan Rang - Tỉnh Khánh Hòa</p>
                 <p className="text-[11px] md:text-sm font-bold text-blue-400 mt-1">Hotline: (0259) 3822 660</p>
               </div>
             </div>
@@ -183,7 +183,7 @@ const App: React.FC = () => {
             </div>
           </div>
           <div className="max-w-6xl mx-auto mt-8 md:mt-12 pt-6 md:pt-8 border-t border-white/5 text-center text-[8px] md:text-[10px] uppercase tracking-[0.3em] font-bold opacity-30">
-            © 2024 Ninh Thuan General Hospital.
+            © 2003 Ninh Thuan General Hospital.
           </div>
         </footer>
       )}
