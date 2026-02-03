@@ -146,13 +146,7 @@ export const AdminDashboard: React.FC<AdminDashboardProps> = ({ feedbacks, onUpd
                   <div className="bg-white/80 p-6 md:p-8 rounded-3xl border border-white shadow-sm space-y-6">
                     <div className="flex items-center justify-between">
                       <h4 className="text-[10px] font-black text-slate-400 uppercase tracking-widest">Soạn thảo phản hồi</h4>
-                      <button 
-                        onClick={handleSuggest} 
-                        disabled={isSuggesting}
-                        className="text-[9px] font-black bg-blue-600 text-white px-4 py-2 rounded-xl shadow-lg hover:bg-blue-700 transition-all flex items-center gap-2 disabled:opacity-50"
-                      >
-                        {isSuggesting ? 'Đang soạn...' : '✨ Dùng AI gợi ý'}
-                      </button>
+                      
                     </div>
                     <textarea 
                       className="w-full p-6 bg-slate-50/50 border border-slate-100 rounded-2xl md:rounded-[32px] focus:ring-4 focus:ring-blue-500/10 focus:bg-white outline-none min-h-[160px] transition-all text-slate-700 font-medium text-base leading-relaxed"
