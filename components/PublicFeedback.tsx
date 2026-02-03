@@ -170,7 +170,7 @@ export const PublicFeedback: React.FC<PublicFeedbackProps> = ({ onSubmit }) => {
           </ul>
         </div>
         <div className="mt-8 md:mt-12 pt-6 border-t border-white/10 hidden md:block">
-           <p className="text-[9px] font-black uppercase tracking-[0.3em] opacity-40 italic">chất lượng - tận tâm - chuyên nghiệp - hiệu quả</p>
+           <p className="opacity-90 font-medium leading-relaxed text-white-600">"Mỗi góp ý là một món quà cho sự hoàn thiện."</p>
         </div>
       </div>
     </div>
