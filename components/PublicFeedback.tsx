@@ -147,9 +147,7 @@ export const PublicFeedback: React.FC<PublicFeedbackProps> = ({ onSubmit }) => {
               <Icons.Send />
             </div>
           </button>
-          <p className="text-center text-[9px] md:text-[10px] text-slate-400 font-bold uppercase tracking-[0.2em] mt-6 md:mt-8 leading-relaxed">
-            Dữ liệu được bảo vệ bởi chứng chỉ an toàn y tế quốc gia
-          </p>
+         
         </div>
       </form>
 
@@ -172,7 +170,7 @@ export const PublicFeedback: React.FC<PublicFeedbackProps> = ({ onSubmit }) => {
           </ul>
         </div>
         <div className="mt-8 md:mt-12 pt-6 border-t border-white/10 hidden md:block">
-           <p className="text-[9px] font-black uppercase tracking-[0.3em] opacity-40 italic">Vì sức khỏe nhân dân Ninh Thuận</p>
+           <p className="text-[9px] font-black uppercase tracking-[0.3em] opacity-40 italic">chất lượng - tận tâm - chuyên nghiệp - hiệu quả</p>
         </div>
       </div>
     </div>
