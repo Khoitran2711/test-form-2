@@ -56,7 +56,7 @@ export const PublicFeedback: React.FC<PublicFeedbackProps> = ({ onSubmit }) => {
   }
 
   return (
-    <div className="w-full bg-white/60 backdrop-blur-none rounded-[30px] md:rounded-[40px] shadow-2xl overflow-hidden border border-white/60 flex flex-col md:flex-row-reverse">
+    <div className="w-full bg-white/60 backdrop-blur-x1 rounded-[30px] md:rounded-[40px] shadow-2xl overflow-hidden border border-white/60 flex flex-col md:flex-row-reverse">
       {/* Form phản ánh - Nằm trên cùng trên Mobile nhờ vị trí JSX */}
       <form onSubmit={handleSubmit} className="md:w-[70%] p-6 md:p-14 space-y-6 md:space-y-10">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
