@@ -113,7 +113,7 @@ export const PublicFeedback: React.FC<PublicFeedbackProps> = ({ onSubmit }) => {
         </div>
 
         <div className="space-y-4">
-          <label className="text-[10px] font-black text-slate-500 uppercase tracking-widest px-1">Đính kèm bằng chứng (Hình ảnh)</label>
+          <label className="text-[10px] font-black text-slate-500 uppercase tracking-widest px-1">Đính kèm (Hình ảnh)</label>
           <div className="flex flex-wrap gap-4 md:gap-6">
             {images.map((img, i) => (
               <div key={i} className="relative w-20 h-20 md:w-28 md:h-28 rounded-2xl md:rounded-3xl overflow-hidden shadow-2xl border-4 border-white group">
