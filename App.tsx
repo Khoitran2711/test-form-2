@@ -78,8 +78,8 @@ const App: React.FC = () => {
               {HOSPITAL_NAME}
             </h1>
             <div className="h-1 w-24 md:h-1.5 md:w-32 bg-blue-600 my-2 md:my-3 rounded-full mx-auto md:mx-0 shadow-sm"></div>
-            <p className="text-blue-700 font-extrabold uppercase tracking-[0.2em] text-[8px] md:text-xs">
-              Hệ thống tiếp mọi góp ý trực tuyến
+            <p className=" font-semibold text-blue-800 tracking-wide text-[7px] md:text-xs">
+              Hệ thống tiếp nhận phản ánh trực tuyến
             </p>
           </div>
         </div>
