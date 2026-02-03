@@ -140,7 +140,7 @@ const App: React.FC = () => {
       {/* Top Bar Navigation */}
       <nav className="bg-blue-900/90 backdrop-blur-none text-white px-4 md:px-6 py-3 md:py-4 flex justify-between items-center shadow-lg z-50 sticky top-0">
         <div className="flex items-center gap-2 md:gap-3">
-          <div className="w-6 h-6 md:w-8 md:h-8 bg-white rounded-lg p-1">
+          <div className="w-6 h-6 md:w-8 md:h-8 bg-blue rounded-lg p-1">
             <Icons.Hospital />
           </div>
           <span className="font-bold text-[10px] md:text-sm tracking-wide uppercase">Cổng thông tin góp ý </span>
