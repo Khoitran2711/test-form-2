@@ -59,7 +59,7 @@ const App: React.FC = () => {
     return (
       <div className="flex flex-col items-center w-full max-w-6xl mx-auto px-4 py-4 md:py-8 relative z-10">
         {/* Header - Thu nhỏ trên mobile */}
-        <div className="w-full flex flex-col md:flex-row items-center gap-4 md:gap-6 mb-6 md:mb-8 bg-white/40 backdrop-blur-md p-4 md:p-8 rounded-[30px] md:rounded-[40px] shadow-2xl border border-white/50">
+        <div className="w-full flex flex-col md:flex-row items-center gap-4 md:gap-6 mb-6 md:mb-8 bg-white/40 backdrop-blur-none p-4 md:p-8 rounded-[30px] md:rounded-[40px] shadow-2xl border border-white/50">
           <div className="w-16 h-16 md:w-24 md:h-24 bg-blue-600 rounded-2xl md:rounded-3xl flex items-center justify-center text-white shadow-xl p-2 shrink-0">
             <Icons.Hospital />
           </div>
@@ -133,7 +133,7 @@ const App: React.FC = () => {
           <div className="w-6 h-6 md:w-8 md:h-8 bg-white rounded-lg p-1">
             <Icons.Hospital />
           </div>
-          <span className="font-bold text-[10px] md:text-sm tracking-wide uppercase">Cổng y tế</span>
+          <span className="font-bold text-[10px] md:text-sm tracking-wide uppercase">Cổng thông tin góp ý </span>
         </div>
         {!isAdminMode ? (
           <button 
