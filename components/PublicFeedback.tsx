@@ -142,7 +142,7 @@ export const PublicFeedback: React.FC<PublicFeedbackProps> = ({ onSubmit }) => {
             type="submit" 
             className="w-full bg-blue-600 hover:bg-blue-700 text-white font-black py-5 md:py-6 rounded-2xl md:rounded-3xl shadow-2xl shadow-blue-200 transition-all flex items-center justify-center gap-4 uppercase tracking-[0.2em] text-xs group active:scale-[0.98]"
           >
-            Gửi thông tin phản ánh
+            Gửi thông tin góp ý của bạn
             <div className="group-hover:translate-x-1 transition-transform">
               <Icons.Send />
             </div>
