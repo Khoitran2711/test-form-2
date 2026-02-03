@@ -60,9 +60,19 @@ const App: React.FC = () => {
       <div className="flex flex-col items-center w-full max-w-6xl mx-auto px-4 py-4 md:py-8 relative z-10">
         {/* Header - Thu nhỏ trên mobile */}
         <div className="w-full flex flex-col md:flex-row items-center gap-4 md:gap-6 mb-6 md:mb-8 bg-white/40 backdrop-blur-none p-4 md:p-8 rounded-[30px] md:rounded-[40px] shadow-2xl border border-white/50">
-          <div className="w-16 h-16 md:w-24 md:h-24 bg-blue-600 rounded-2xl md:rounded-3xl flex items-center justify-center text-white shadow-xl p-2 shrink-0">
-            <Icons.Hospital />
-          </div>
+         <div className="w-20 h-20 md:w-24 md:h-24 bg-white rounded-3xl flex items-center justify-center shadow-xl p-2 shrink-0 overflow-hidden">
+  <img 
+    src="https://bom.so/7EmoNC" 
+    alt="Logo Bệnh viện" 
+    className="w-full h-full object-contain"
+    onError={(e) => {
+      const target = e.target as HTMLImageElement;
+      // Nếu link die, nó sẽ hiện icon bệnh viện mặc định thay vì xoay tròn
+      target.style.display = 'none'; 
+      console.error("Không thể tải logo từ link");
+    }}
+  />
+</div>
           <div className="flex flex-col text-center md:text-left">
             <h1 className="text-xl md:text-4xl font-black text-blue-900 tracking-tighter leading-tight md:leading-none uppercase drop-shadow-sm">
               {HOSPITAL_NAME}
