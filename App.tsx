@@ -89,7 +89,7 @@ const App: React.FC = () => {
             />
           </div>
           <div className="flex flex-col text-left">
-            <h1 className="text-sm md:text-4xl font-black text-blue-700/95 tracking-tighter leading-tight uppercase drop-shadow-sm">
+            <h1 className="text-xl md:text-4xl font-black text-blue-700/95 tracking-tighter leading-tight md:leading-none uppercase drop-shadow-sm">
               {HOSPITAL_NAME}
             </h1>
             <p className="font-bold text-blue-700/95 tracking-[0.15em] text-[10px] md:text-sm uppercase leading-relaxed">
