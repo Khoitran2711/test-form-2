@@ -2,7 +2,7 @@
 import { Feedback } from '../types';
 
 // THAY THẾ URL NÀY BẰNG URL WEB APP CỦA BẠN TỪ GOOGLE APPS SCRIPT
-const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycby-265G9WOPm0Ti_IgoBB2_7PHJ_-Jr1kMptMaZ5gkx-dHv5Pp1jYQ2FbfBRbYuGVaqRg/exec';
+const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycby8SlGTydsp58n4YoUBQnh6p-ekXLopFw3Pjuh9wHtrVtSufB0ZS9THETeb4ZIXgEmn-A/exec';
 
 export const sheetService = {
   async getAllFeedbacks(): Promise<Feedback[]> {
