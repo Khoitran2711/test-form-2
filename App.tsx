@@ -146,20 +146,19 @@ const App: React.FC = () => {
           className="w-full h-full object-cover"
           onError={(e) => {
             const target = e.target as HTMLImageElement;
-            target.src = 'https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&q=80&w=2000';
+            target.src = 'https://scontent.fsgn24-1.fna.fbcdn.net/v/t39.30808-6/514066302_707621135218583_2409261783078819376_n.jpg?stp=cp6_dst-jpg_s960x960_tt6&_nc_cat=109&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=OsOx_p23lwIQ7kNvwEwKKTf&_nc_oc=AdkOHGyKE-6GY3F7atwt0nmDpbTDUu5UNKN1vcLAbwE4dOO25O9sPQ7-4LN7ggT9hLg&_nc_zt=23&_nc_ht=scontent.fsgn24-1.fna&_nc_gid=7womj9dnlTw27UmSQlvAZw&oh=00_AftZw7lQv33hTzMqQnbaRrZUnPuX7J5vSo0YYFDikJ0XRw&oe=69886252';
           }}
         />
         <div className="absolute inset-0 bg-white/30 backdrop-blur-[1px]"></div>
       </div>
 
-      <nav className="bg-blue-700/90 backdrop-blur-none text-white px-4 md:px-6 py-3 md:py-4 flex justify-between items-center shadow-lg z-50 sticky top-0">
+          <nav className="bg-blue-700/90 backdrop-blur-none text-white px-4 md:px-6 py-3 md:py-4 flex justify-between items-center shadow-lg z-50 sticky top-0">
         <div className="flex items-center gap-2 md:gap-3">
-          <div className="w-6 h-6 md:w-8 md:h-8 bg-blue rounded-lg p-1 shrink-0">
+          <div className="w-6 h-6 md:w-8 md:h-8 bg-blue rounded-lg p-1">
             <Icons.Hospital />
           </div>
-          <span className="font-bold text-[10px] md:text-sm tracking-wide uppercase">Cổng y tế</span>
+          <span className="font-bold text-[10px] md:text-sm tracking-wide uppercase">Cổng thông tin góp ý </span>
         </div>
-        
         {!isAdminMode ? (
           <button 
             onClick={() => setIsAdminMode(true)} 
