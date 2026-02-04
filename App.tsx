@@ -80,7 +80,7 @@ const App: React.FC = () => {
     return (
       <div className="flex flex-col items-center w-full max-w-6xl mx-auto px-4 py-2 md:py-8 relative z-10">
         {/* Header */}
-        <div className="w-full flex flex-row items-center gap-3 md:gap-6 mb-4 md:mb-8 bg-white/40 backdrop-blur-md p-3 md:p-8 rounded-[25px] md:rounded-[40px] shadow-xl border border-white/50">
+        <div className="w-full flex flex-row items-center gap-3 md:gap-6 mb-4 md:mb-8 bg-white/40 backdrop-blur-none p-3 md:p-8 rounded-[25px] md:rounded-[40px] shadow-xl border border-white/50">
           <div className="w-12 h-12 md:w-24 md:h-24 bg-white rounded-xl md:rounded-3xl flex items-center justify-center shadow-md p-1 shrink-0 overflow-hidden">
             <img 
               src="https://bom.so/7EmoNC" 
