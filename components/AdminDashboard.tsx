@@ -1,16 +1,33 @@
-
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { Feedback, FeedbackStatus } from '../types';
-import { Icons, HOSPITAL_NAME } from '../constants';
+import { Icons } from '../constants';
 import { suggestReply } from '../services/geminiService';
 
 interface AdminDashboardProps {
   feedbacks: Feedback[];
   onUpdateFeedback: (feedback: Feedback) => void;
-  onLogout: () => void;
 }
 
-export const AdminDashboard: React.FC<AdminDashboardProps> = ({ feedbacks, onUpdateFeedback, onLogout }) => {
+export const AdminDashboard: React.FC<AdminDashboardProps> = ({
+  feedbacks,
+  onUpdateFeedback
+}) => {
+  const navigate = useNavigate();
+
+  // 🔐 Check token khi vào trang
+  useEffect(() => {
+    const token = localStorage.getItem('adminToken');
+    if (!token) {
+      navigate('/admin/login');
+    }
+  }, [navigate]);
+
+  // 🚪 Logout
+  const handleLogout = () => {
+    localStorage.removeItem('adminToken');
+    navigate('/admin/login');
+  };
   const [selectedFeedback, setSelectedFeedback] = useState<Feedback | null>(null);
   const [replyText, setReplyText] = useState('');
   const [isSuggesting, setIsSuggesting] = useState(false);
