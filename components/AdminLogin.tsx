@@ -14,8 +14,12 @@ export const AdminLogin: React.FC<AdminLoginProps> = ({ onLogin }) => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (username === 'admin' && password === 'admin123') {
-      onLogin(username);
-    } else {
+  // 🔐 lưu token admin (dùng cho mọi thiết bị)
+  localStorage.setItem('adminToken', 'bvnt-2026-secret');
+
+  onLogin(username);
+}
+else {
       setError('Tài khoản hoặc mật khẩu không chính xác');
     }
   };
